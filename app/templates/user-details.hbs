@@ -1,0 +1,57 @@
+<div class="user-details">
+    <h3>{{model.name}}</h3>
+    <table>
+        <tr>
+            <td>
+                username
+            </td>
+            <td>
+                {{model.username}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                email
+            </td>
+            <td>
+                {{model.email}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                address
+            </td>
+            <td>
+                {{model.address.street}} {{model.address.suite}}
+                <br/>
+                {{model.address.city}} {{model.address.zipcode}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                phone
+            </td>
+            <td>
+                {{model.phone}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                website
+            </td>
+            <td>
+                {{model.website}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                company
+            </td>
+            <td>
+                {{model.company.name}}
+            </td>
+        </tr>
+    </table>
+</div>
+
+
